@@ -1,0 +1,30 @@
+import { Navbar } from "@/components/navbar";
+import { Hero } from "@/components/sections/hero";
+import { TechMarquee } from "@/components/tech-marquee";
+import { SectionDivider } from "@/components/section-divider";
+import { About } from "@/components/sections/about";
+import { Skills } from "@/components/sections/skills";
+import { Projects } from "@/components/sections/projects";
+import { Contact } from "@/components/sections/contact";
+import { Footer } from "@/components/footer";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <TechMarquee />
+        <SectionDivider />
+        <About />
+        <SectionDivider />
+        <Skills />
+        <SectionDivider />
+        <Projects />
+        <SectionDivider />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
+}

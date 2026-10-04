@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Neeraj." [ref=e4] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e5]:
+        - link "About" [ref=e6] [cursor=pointer]:
+          - /url: "#about"
+        - link "Skills" [ref=e7] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Projects" [ref=e8] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Contact" [ref=e9] [cursor=pointer]:
+          - /url: "#contact"
+        - button "Toggle theme" [ref=e11]
+  - main [ref=e18]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: Available for opportunities
+      - heading "Hi, I'm Neeraj" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Full Stack Developer & CS Student
+      - paragraph [ref=e29]: I build modern, performant web applications with a focus on clean design and great user experience. Currently exploring the intersection of AI and frontend development.
+      - generic [ref=e30]:
+        - link "View My Work" [ref=e31] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Get in Touch" [ref=e34] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e35]:
+        - link "GitHub" [ref=e36] [cursor=pointer]:
+          - /url: https://github.com
+        - link "LinkedIn" [ref=e40] [cursor=pointer]:
+          - /url: https://linkedin.com
+        - link "Email" [ref=e45] [cursor=pointer]:
+          - /url: mailto:hello@example.com
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - paragraph [ref=e52]: About Me
+        - heading "A bit about who I am" [level=2] [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e55]: "N"
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: I'm a computer science student who loves turning ideas into real, working products. My journey started with curiosity about how websites work, and it has grown into a passion for crafting delightful user experiences with modern web technologies.
+          - paragraph [ref=e61]: When I'm not coding, you'll find me exploring new frameworks, contributing to open source, or learning about the latest in AI and design.
+          - generic [ref=e62]:
+            - generic [ref=e68]:
+              - heading "Education" [level=3] [ref=e69]
+              - paragraph [ref=e70]: Computer Science student with a focus on software engineering and web technologies.
+            - generic [ref=e77]:
+              - heading "Development" [level=3] [ref=e78]
+              - paragraph [ref=e79]: Passionate about building modern web apps with React, Next.js, and TypeScript.
+            - generic [ref=e85]:
+              - heading "Location" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Based in India, open to remote opportunities and collaborations worldwide.
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - paragraph [ref=e91]: Skills
+        - heading "Technologies I work with" [level=2] [ref=e92]
+        - paragraph [ref=e93]: A snapshot of my toolkit — from frameworks I use daily to technologies I'm currently exploring.
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - heading "Frontend" [level=3] [ref=e99]
+          - generic [ref=e100]:
+            - generic [ref=e101]: React
+            - generic [ref=e102]: Next.js
+            - generic [ref=e103]: TypeScript
+            - generic [ref=e104]: Tailwind CSS
+            - generic [ref=e105]: HTML/CSS
+        - generic [ref=e106]:
+          - heading "Backend" [level=3] [ref=e111]
+          - generic [ref=e112]:
+            - generic [ref=e113]: Node.js
+            - generic [ref=e114]: Express
+            - generic [ref=e115]: PostgreSQL
+            - generic [ref=e116]: REST APIs
+            - generic [ref=e117]: Prisma
+        - generic [ref=e118]:
+          - heading "Tools" [level=3] [ref=e122]
+          - generic [ref=e123]:
+            - generic [ref=e124]: Git
+            - generic [ref=e125]: Docker
+            - generic [ref=e126]: VS Code
+            - generic [ref=e127]: Figma
+            - generic [ref=e128]: Linux
+        - generic [ref=e129]:
+          - heading "Exploring" [level=3] [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]: AI/ML
+            - generic [ref=e137]: Three.js
+            - generic [ref=e138]: GraphQL
+            - generic [ref=e139]: Rust
+            - generic [ref=e140]: WebGPU
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - paragraph [ref=e144]: Projects
+        - heading "Things I've built" [level=2] [ref=e145]
+        - paragraph [ref=e146]: A selection of projects that showcase my skills and passion for building great software.
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - heading [level=3] [ref=e149]:
+            - button [expanded] [ref=e150]:
+              - generic [ref=e153]:
+                - heading "Portfolio Website" [level=3] [ref=e154]
+                - paragraph [ref=e155]: In Progress
+          - region "Portfolio Website In Progress":
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: This very site — a modern, glassmorphism-styled portfolio built with Next.js 15, Tailwind CSS v4, and shadcn/ui. Features dark mode, responsive design, and smooth animations.
+              - generic [ref=e160]:
+                - generic [ref=e161]: Next.js
+                - generic [ref=e162]: TypeScript
+                - generic [ref=e163]: Tailwind CSS
+                - generic [ref=e164]: shadcn/ui
+              - generic [ref=e165]:
+                - link "Live Demo" [ref=e166] [cursor=pointer]:
+                  - /url: "#"
+                - link "Source" [ref=e171] [cursor=pointer]:
+                  - /url: "#"
+        - heading [level=3] [ref=e176]:
+          - button [ref=e177]:
+            - generic [ref=e180]:
+              - heading "Task Manager App" [level=3] [ref=e181]
+              - paragraph [ref=e182]: Completed
+        - heading [level=3] [ref=e186]:
+          - button [ref=e187]:
+            - generic [ref=e190]:
+              - heading "AI Chat Interface" [level=3] [ref=e191]
+              - paragraph [ref=e192]: Completed
+        - heading [level=3] [ref=e196]:
+          - button [ref=e197]:
+            - generic [ref=e200]:
+              - heading "Weather Dashboard" [level=3] [ref=e201]
+              - paragraph [ref=e202]: Completed
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - paragraph [ref=e208]: Contact
+        - heading "Let's work together" [level=2] [ref=e209]
+        - paragraph [ref=e210]: Have a project in mind or just want to say hello? My inbox is always open.
+      - generic [ref=e211]:
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - generic [ref=e215]: Name
+            - textbox "Name" [ref=e216]:
+              - /placeholder: Your name
+          - generic [ref=e217]:
+            - generic [ref=e218]: Email
+            - textbox "Email" [ref=e219]:
+              - /placeholder: you@example.com
+          - generic [ref=e220]:
+            - generic [ref=e221]: Message
+            - textbox "Message" [ref=e222]:
+              - /placeholder: Tell me about your project...
+          - button "Send Message" [ref=e223]
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - heading "Connect with me" [level=3] [ref=e229]
+            - generic [ref=e230]:
+              - link "hello@example.com" [ref=e231] [cursor=pointer]:
+                - /url: mailto:hello@example.com
+              - link "github.com/neeraj" [ref=e236] [cursor=pointer]:
+                - /url: https://github.com
+              - link "linkedin.com/in/neeraj" [ref=e241] [cursor=pointer]:
+                - /url: https://linkedin.com
+          - generic [ref=e247]:
+            - heading "Response time" [level=3] [ref=e248]
+            - paragraph [ref=e249]: I typically respond within 24 hours. For urgent matters, reach out on LinkedIn for a faster response.
+  - contentinfo [ref=e250]:
+    - generic [ref=e251]:
+      - paragraph [ref=e252]: © 2026 Neeraj. All rights reserved.
+      - paragraph [ref=e253]: Built withusing Next.js, Tailwind CSS & shadcn/ui

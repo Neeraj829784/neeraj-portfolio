@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+.next/
+out/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Playwright
+test-results/
+playwright-report/
+.playwright-mcp/
+
+# OpenCode
+.opencode/cache/
+
+# Screenshots (debug)
+*.png
+
+# Logs
+*.log
+npm-debug.log*

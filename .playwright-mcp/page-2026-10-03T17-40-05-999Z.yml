@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "neeraj @security" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - text: neeraj
+        - generic [ref=e7]: "@security"
+      - generic [ref=e8]:
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: "#about"
+        - link "Skills" [ref=e10] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Research" [ref=e11] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Contact" [ref=e12] [cursor=pointer]:
+          - /url: "#contact"
+        - button "Toggle theme" [ref=e14]
+  - main [ref=e21]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: neeraj@security:~
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: $ whoami
+            - generic [ref=e37]: ▌
+          - generic [ref=e39]:
+            - paragraph [ref=e40]: $ cat role.txt
+            - generic [ref=e41]: _
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: $ cat mission.txt
+            - generic [ref=e45]: "|"
+      - generic [ref=e47]:
+        - generic [ref=e48]: Security Cleared
+        - generic [ref=e52]: CTF Player
+        - generic [ref=e57]: OSINT
+      - generic [ref=e62]:
+        - button "View Research" [ref=e64] [cursor=pointer]
+        - button "Contact" [ref=e74]
+      - generic [ref=e75]:
+        - generic:
+          - link "GitHub":
+            - /url: https://github.com
+        - generic:
+          - link "LinkedIn":
+            - /url: https://linkedin.com
+        - generic:
+          - link "Email":
+            - /url: mailto:hello@example.com
+      - generic [ref=e76]: SCROLL
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]: Kali Linux
+        - generic [ref=e85]: Burp Suite
+        - generic [ref=e86]: Metasploit
+        - generic [ref=e87]: Nmap
+        - generic [ref=e88]: Wireshark
+        - generic [ref=e89]: Ghidra
+        - generic [ref=e90]: OWASP ZAP
+        - generic [ref=e91]: Shodan
+        - generic [ref=e92]: Maltego
+        - generic [ref=e93]: Hashcat
+        - generic [ref=e94]: John the Ripper
+        - generic [ref=e95]: Aircrack-ng
+        - generic [ref=e96]: SQLMap
+        - generic [ref=e97]: Nessus
+        - generic [ref=e98]: Snort
+      - generic [ref=e99]:
+        - generic [ref=e100]: Kali Linux
+        - generic [ref=e101]: Burp Suite
+        - generic [ref=e102]: Metasploit
+        - generic [ref=e103]: Nmap
+        - generic [ref=e104]: Wireshark
+        - generic [ref=e105]: Ghidra
+        - generic [ref=e106]: OWASP ZAP
+        - generic [ref=e107]: Shodan
+        - generic [ref=e108]: Maltego
+        - generic [ref=e109]: Hashcat
+        - generic [ref=e110]: John the Ripper
+        - generic [ref=e111]: Aircrack-ng
+        - generic [ref=e112]: SQLMap
+        - generic [ref=e113]: Nessus
+        - generic [ref=e114]: Snort
+      - generic [ref=e115]:
+        - generic [ref=e116]: Kali Linux
+        - generic [ref=e117]: Burp Suite
+        - generic [ref=e118]: Metasploit
+        - generic [ref=e119]: Nmap
+        - generic [ref=e120]: Wireshark
+        - generic [ref=e121]: Ghidra
+        - generic [ref=e122]: OWASP ZAP
+        - generic [ref=e123]: Shodan
+        - generic [ref=e124]: Maltego
+        - generic [ref=e125]: Hashcat
+        - generic [ref=e126]: John the Ripper
+        - generic [ref=e127]: Aircrack-ng
+        - generic [ref=e128]: SQLMap
+        - generic [ref=e129]: Nessus
+        - generic [ref=e130]: Snort
+      - generic [ref=e131]:
+        - generic [ref=e132]: Kali Linux
+        - generic [ref=e133]: Burp Suite
+        - generic [ref=e134]: Metasploit
+        - generic [ref=e135]: Nmap
+        - generic [ref=e136]: Wireshark
+        - generic [ref=e137]: Ghidra
+        - generic [ref=e138]: OWASP ZAP
+        - generic [ref=e139]: Shodan
+        - generic [ref=e140]: Maltego
+        - generic [ref=e141]: Hashcat
+        - generic [ref=e142]: John the Ripper
+        - generic [ref=e143]: Aircrack-ng
+        - generic [ref=e144]: SQLMap
+        - generic [ref=e145]: Nessus
+        - generic [ref=e146]: Snort
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - generic [ref=e151]: About Me
+        - heading [level=2] [ref=e154]:
+          - text: Decoding
+          - strong [ref=e157]: security
+      - generic [ref=e158]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]: "0"
+            - text: +
+          - text: CTFs Won
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - generic [ref=e170]: "0"
+            - text: +
+          - text: Vulnerabilities Found
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]: "0"
+            - text: +
+          - text: Security Tools
+        - generic [ref=e177]: Top 5%Hack The Box Rank
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - heading "Security Researcher" [level=3] [ref=e183]
+          - generic [ref=e186]:
+            - paragraph [ref=e187]: "I'm a cybersecurity researcher and ethical hacker with a passion for understanding how systems break — and how to fix them before the bad guys find out. My journey into security started with a simple question: \"How does this actually work?\""
+            - paragraph [ref=e188]: Today, I specialize in offensive security, vulnerability research, and threat analysis. I believe that the best defense is understanding offense — you can't protect what you don't understand.
+            - paragraph [ref=e189]: When I'm not hunting vulnerabilities or analyzing malware, you'll find me competing in CTFs, contributing to security research, or writing about the latest threats.
+          - generic [ref=e190]: Based in India, securing systems globally
+        - generic [ref=e194]:
+          - generic [ref=e198]:
+            - heading "Offensive Security" [level=4] [ref=e202]
+            - paragraph [ref=e203]: Penetration testing, red team operations, and vulnerability research.
+          - generic [ref=e207]:
+            - heading "Threat Analysis" [level=4] [ref=e218]
+            - paragraph [ref=e219]: Malware analysis, reverse engineering, and threat intelligence gathering.
+          - generic [ref=e223]:
+            - heading "OSINT" [level=4] [ref=e228]
+            - paragraph [ref=e229]: Open-source intelligence gathering and digital footprint analysis.
+          - generic [ref=e233]:
+            - heading "Network Security" [level=4] [ref=e240]
+            - paragraph [ref=e241]: Network monitoring, intrusion detection, and packet analysis.
+      - generic [ref=e245]:
+        - heading "Currently" [level=3] [ref=e250]
+        - generic [ref=e251]:
+          - generic [ref=e252]: OSCP Preparation
+          - generic [ref=e253]: Malware Analysis
+          - generic [ref=e254]: Bug Bounty
+          - generic [ref=e255]: Security Research
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - generic [ref=e260]: Skills
+        - heading [level=2] [ref=e264]:
+          - text: My security
+          - strong [ref=e267]: arsenal
+        - paragraph [ref=e268]: Tools and techniques I use to identify, analyze, and mitigate security threats.
+      - generic [ref=e269]:
+        - generic [ref=e273]:
+          - heading "Offensive Security" [level=3] [ref=e278]
+          - generic [ref=e279]:
+            - generic [ref=e281]:
+              - generic [ref=e282]: Penetration Testing
+              - generic [ref=e283]: 85%
+            - generic [ref=e286]:
+              - generic [ref=e287]: Red Team Ops
+              - generic [ref=e288]: 75%
+            - generic [ref=e291]:
+              - generic [ref=e292]: Social Engineering
+              - generic [ref=e293]: 70%
+            - generic [ref=e296]:
+              - generic [ref=e297]: Exploit Development
+              - generic [ref=e298]: 65%
+            - generic [ref=e301]:
+              - generic [ref=e302]: Post-Exploitation
+              - generic [ref=e303]: 72%
+        - generic [ref=e308]:
+          - heading "Threat Analysis" [level=3] [ref=e320]
+          - generic [ref=e321]:
+            - generic [ref=e323]:
+              - generic [ref=e324]: Malware Analysis
+              - generic [ref=e325]: 78%
+            - generic [ref=e328]:
+              - generic [ref=e329]: Reverse Engineering
+              - generic [ref=e330]: 70%
+            - generic [ref=e333]:
+              - generic [ref=e334]: Forensics
+              - generic [ref=e335]: 72%
+            - generic [ref=e338]:
+              - generic [ref=e339]: Threat Intel
+              - generic [ref=e340]: 75%
+            - generic [ref=e343]:
+              - generic [ref=e344]: IOC Analysis
+              - generic [ref=e345]: 80%
+        - generic [ref=e350]:
+          - heading "Network Security" [level=3] [ref=e358]
+          - generic [ref=e359]:
+            - generic [ref=e361]:
+              - generic [ref=e362]: Wireshark
+              - generic [ref=e363]: 85%
+            - generic [ref=e366]:
+              - generic [ref=e367]: Nmap
+              - generic [ref=e368]: 90%
+            - generic [ref=e371]:
+              - generic [ref=e372]: IDS/IPS
+              - generic [ref=e373]: 75%
+            - generic [ref=e376]:
+              - generic [ref=e377]: Firewall Config
+              - generic [ref=e378]: 70%
+            - generic [ref=e381]:
+              - generic [ref=e382]: VPN/Tunneling
+              - generic [ref=e383]: 72%
+        - generic [ref=e388]:
+          - heading "Tools & Platforms" [level=3] [ref=e393]
+          - generic [ref=e394]:
+            - generic [ref=e396]:
+              - generic [ref=e397]: Burp Suite
+              - generic [ref=e398]: 85%
+            - generic [ref=e401]:
+              - generic [ref=e402]: Metasploit
+              - generic [ref=e403]: 80%
+            - generic [ref=e406]:
+              - generic [ref=e407]: Kali Linux
+              - generic [ref=e408]: 88%
+            - generic [ref=e411]:
+              - generic [ref=e412]: Ghidra
+              - generic [ref=e413]: 65%
+            - generic [ref=e416]:
+              - generic [ref=e417]: SIEM
+              - generic [ref=e418]: 70%
+    - generic [ref=e422]:
+      - generic [ref=e423]:
+        - generic [ref=e424]: Projects
+        - heading [level=2] [ref=e434]:
+          - text: Security
+          - strong [ref=e437]: research
+        - paragraph [ref=e438]: A selection of security tools, research projects, and platforms I've built to understand and improve cybersecurity.
+      - generic [ref=e439]:
+        - generic [ref=e443]:
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - generic [ref=e450]:
+                - heading "Vulnerability Scanner" [level=3] [ref=e451]
+                - generic [ref=e452]: In Progress
+              - paragraph [ref=e453]: Automated network vulnerability scanner with custom NSE scripts, CVE detection, and report generation. Scans networks for common misconfigurations and known vulnerabilities.
+              - generic [ref=e454]:
+                - generic [ref=e455]: Python
+                - generic [ref=e456]: Nmap
+                - generic [ref=e457]: Scapy
+                - generic [ref=e458]: SQLite
+                - generic [ref=e459]: ReportLab
+            - generic [ref=e460]: "2026"
+          - generic [ref=e466]:
+            - link "Live Demo" [ref=e467] [cursor=pointer]:
+              - /url: "#"
+            - link "Source" [ref=e468] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e472]:
+          - generic [ref=e473]:
+            - generic [ref=e474]:
+              - generic [ref=e486]:
+                - heading "CTF Challenge Platform" [level=3] [ref=e487]
+                - generic [ref=e488]: Completed
+              - paragraph [ref=e489]: A self-hosted Capture The Flag platform with dynamic scoring, challenge categories (web, crypto, forensics, pwn), and real-time leaderboard for security training.
+              - generic [ref=e490]:
+                - generic [ref=e491]: Next.js
+                - generic [ref=e492]: PostgreSQL
+                - generic [ref=e493]: Docker
+                - generic [ref=e494]: Redis
+                - generic [ref=e495]: WebSockets
+            - generic [ref=e496]: "2025"
+          - generic [ref=e502]:
+            - link "Live Demo" [ref=e503] [cursor=pointer]:
+              - /url: "#"
+            - link "Source" [ref=e504] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e508]:
+          - generic [ref=e509]:
+            - generic [ref=e510]:
+              - generic [ref=e518]:
+                - heading "Network Traffic Analyzer" [level=3] [ref=e519]
+                - generic [ref=e520]: Completed
+              - paragraph [ref=e521]: Real-time network traffic analysis tool with packet inspection, protocol decoding, and anomaly detection. Visualizes network flows and identifies suspicious patterns.
+              - generic [ref=e522]:
+                - generic [ref=e523]: Python
+                - generic [ref=e524]: Scapy
+                - generic [ref=e525]: Wireshark
+                - generic [ref=e526]: Matplotlib
+                - generic [ref=e527]: Tkinter
+            - generic [ref=e528]: "2025"
+          - generic [ref=e534]:
+            - link "Live Demo" [ref=e535] [cursor=pointer]:
+              - /url: "#"
+            - link "Source" [ref=e536] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e540]:
+          - generic [ref=e541]:
+            - generic [ref=e542]:
+              - generic [ref=e548]:
+                - heading "OSINT Intelligence Tool" [level=3] [ref=e549]
+                - generic [ref=e550]: Completed
+              - paragraph [ref=e551]: Open-source intelligence gathering tool that aggregates data from public sources, social media, and dark web to build comprehensive target profiles for security assessments.
+              - generic [ref=e552]:
+                - generic [ref=e553]: Python
+                - generic [ref=e554]: BeautifulSoup
+                - generic [ref=e555]: Shodan API
+                - generic [ref=e556]: MongoDB
+            - generic [ref=e557]: "2025"
+          - generic [ref=e563]:
+            - link "Live Demo" [ref=e564] [cursor=pointer]:
+              - /url: "#"
+            - link "Source" [ref=e565] [cursor=pointer]:
+              - /url: "#"
+      - link "View all research on GitHub" [ref=e567] [cursor=pointer]:
+        - /url: https://github.com
+    - generic [ref=e570]:
+      - generic [ref=e571]:
+        - generic [ref=e572]: Contact
+        - heading [level=2] [ref=e575]:
+          - text: Let's secure
+          - strong [ref=e578]: together
+        - paragraph [ref=e579]: Need a security assessment, penetration test, or just want to chat about cybersecurity? My inbox is always open.
+      - generic [ref=e580]:
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - generic [ref=e587]:
+              - generic [ref=e588]: Name
+              - textbox "Name" [ref=e589]:
+                - /placeholder: Your name
+            - generic [ref=e590]:
+              - generic [ref=e591]: Email
+              - textbox "Email" [ref=e592]:
+                - /placeholder: you@example.com
+          - generic [ref=e593]:
+            - generic [ref=e594]: Subject
+            - textbox "Subject" [ref=e595]:
+              - /placeholder: Security assessment, collaboration, etc.
+          - generic [ref=e596]:
+            - generic [ref=e597]: Message
+            - textbox "Message" [ref=e598]:
+              - /placeholder: Describe your security needs, timeline, and scope...
+          - button "Send Message" [ref=e599] [cursor=pointer]
+        - generic [ref=e609]:
+          - generic [ref=e612]:
+            - heading "Connect with me" [level=3] [ref=e613]
+            - generic [ref=e614]:
+              - link [ref=e615] [cursor=pointer]:
+                - /url: mailto:hello@example.com
+                - generic [ref=e620]:
+                  - paragraph [ref=e621]: Email
+                  - paragraph [ref=e622]: hello@example.com
+              - link [ref=e623] [cursor=pointer]:
+                - /url: https://github.com
+                - generic [ref=e628]:
+                  - paragraph [ref=e629]: GitHub
+                  - paragraph [ref=e630]: github.com/neeraj
+              - link [ref=e631] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - generic [ref=e637]:
+                  - paragraph [ref=e638]: LinkedIn
+                  - paragraph [ref=e639]: linkedin.com/in/neeraj
+          - generic [ref=e643]:
+            - generic [ref=e649]:
+              - paragraph [ref=e650]: Response time
+              - paragraph [ref=e651]: Within 24 hours
+            - generic [ref=e656]:
+              - paragraph [ref=e657]: Location
+              - paragraph [ref=e658]: India (Remote friendly)
+  - contentinfo [ref=e659]:
+    - generic [ref=e661]:
+      - generic [ref=e662]:
+        - paragraph [ref=e663]:
+          - text: neeraj
+          - generic [ref=e666]: "@security"
+        - paragraph [ref=e667]: © 2026 All rights reserved.
+      - generic [ref=e668]:
+        - paragraph [ref=e669]: Secured withand built with Next.js & shadcn/ui
+        - button "Back to top" [ref=e672]
