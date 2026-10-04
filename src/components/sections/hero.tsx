@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "motion/react";
-import { ArrowDown, Github, Linkedin, Mail, Terminal, Shield, Lock, Eye, ChevronRight } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Terminal, ChevronRight } from "lucide-react";
 import { Floating3DParticles } from "@/components/ui/floating-3d-particles";
 import { TypingAnimation } from "@/components/ui/typing-animation";
 import { GlyphMatrix } from "@/components/ui/glyph-matrix";
@@ -11,7 +11,6 @@ import { ShimmerButton } from "@/components/ui/shimmer-button";
 import { AnimatedShinyText } from "@/components/ui/animated-shiny-text";
 import { LightRays } from "@/components/ui/light-rays";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 
 // Magnetic button wrapper
 function MagneticButton({ children, className }: { children: React.ReactNode; className?: string }) {
@@ -212,30 +211,6 @@ export function Hero() {
               </div>
             </div>
           </motion.div>
-
-          {/* Status badges with staggered entrance */}
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            {[
-              { icon: Shield, label: "Security Cleared" },
-              { icon: Lock, label: "CTF Player" },
-              { icon: Eye, label: "OSINT" },
-            ].map((badge, i) => (
-              <motion.div
-                key={badge.label}
-                initial={{ opacity: 0, y: 20, scale: 0.8 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.5 + i * 0.1 }}
-              >
-                <Badge
-                  variant="secondary"
-                  className="gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-4 py-1.5 text-xs font-medium text-emerald-400"
-                >
-                  <badge.icon className="h-3.5 w-3.5" />
-                  {badge.label}
-                </Badge>
-              </motion.div>
-            ))}
-          </div>
 
           {/* CTA buttons with magnetic effect */}
           <motion.div
