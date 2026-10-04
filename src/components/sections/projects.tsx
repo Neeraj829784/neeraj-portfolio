@@ -203,7 +203,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 
 export function Projects() {
   return (
-    <section id="projects" className="relative py-24 md:py-32 lg:py-40">
+    <section id="projects" className="relative py-16 md:py-20 lg:py-24">
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute top-1/3 -left-40 h-[500px] w-[500px] rounded-full bg-emerald-500/3 blur-[120px]" />
       </div>

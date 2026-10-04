@@ -40,7 +40,7 @@ const highlights = [
 
 export function About() {
   return (
-    <section id="about" className="relative py-24 md:py-32 lg:py-40">
+    <section id="about" className="relative py-16 md:py-20 lg:py-24">
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 -left-64 h-[500px] w-[500px] rounded-full bg-emerald-500/3 blur-[100px]" />
       </div>

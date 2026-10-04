@@ -34,7 +34,7 @@ const socialLinks = [
 
 export function Contact() {
   return (
-    <section id="contact" className="relative bg-muted/20 py-24 md:py-32 lg:py-40">
+    <section id="contact" className="relative bg-muted/20 py-16 md:py-20 lg:py-24">
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="absolute -bottom-40 left-1/3 h-[400px] w-[400px] rounded-full bg-emerald-500/3 blur-[120px]" />
       </div>
