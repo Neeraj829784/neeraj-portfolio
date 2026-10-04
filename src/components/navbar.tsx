@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, Terminal } from "lucide-react";
-import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -61,14 +60,10 @@ export function Navbar() {
               <a href={link.href}>{link.label}</a>
             </Button>
           ))}
-          <div className="ml-2 border-l border-border/50 pl-2">
-            <ThemeToggle />
-          </div>
         </div>
 
         {/* Mobile controls */}
         <div className="flex items-center gap-2 md:hidden">
-          <ThemeToggle />
           <Button
             variant="outline"
             size="icon"
