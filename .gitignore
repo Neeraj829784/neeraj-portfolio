@@ -27,6 +27,7 @@ playwright-report/
 
 # OpenCode
 .opencode/cache/
+opencode.json
 
 # Screenshots (debug)
 *.png
