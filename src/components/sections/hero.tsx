@@ -156,7 +156,7 @@ export function Hero() {
               </div>
               <div className="ml-2 flex items-center gap-2 text-xs text-muted-foreground">
                 <Terminal className="h-3.5 w-3.5" />
-                neeraj@security:~
+                neeraj:~
               </div>
             </div>
 

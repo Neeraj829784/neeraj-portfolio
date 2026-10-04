@@ -44,7 +44,7 @@ export function Navbar() {
           whileTap={{ scale: 0.98 }}
         >
           <Terminal className="h-5 w-5 text-emerald-400" />
-          neeraj<span className="text-emerald-400">@security</span>
+          neeraj
         </motion.a>
 
         {/* Desktop links */}

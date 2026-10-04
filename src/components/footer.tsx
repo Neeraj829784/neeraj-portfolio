@@ -13,7 +13,7 @@ export function Footer() {
           <div className="flex flex-col items-center gap-2 md:items-start">
             <p className="flex items-center gap-2 font-heading text-lg font-bold">
               <Shield className="h-5 w-5 text-emerald-400" />
-              neeraj<span className="text-emerald-400">@security</span>
+              neeraj
             </p>
             <p className="text-sm text-muted-foreground">
               &copy; {new Date().getFullYear()} All rights reserved.
