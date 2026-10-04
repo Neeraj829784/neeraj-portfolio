@@ -13,14 +13,6 @@ import { LightRays } from "@/components/ui/light-rays";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
-const securityRoles = [
-  "Penetration Tester",
-  "Security Researcher",
-  "Ethical Hacker",
-  "Threat Analyst",
-  "Red Team Operator",
-];
-
 // Magnetic button wrapper
 function MagneticButton({ children, className }: { children: React.ReactNode; className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -199,9 +191,9 @@ export function Hero() {
                   showCursor
                   blinkCursor
                   cursorStyle="underscore"
-                  words={securityRoles}
-                  loop
-                />
+                >
+                  Security Researcher
+                </TypingAnimation>
               </div>
 
               <div className="mt-4 space-y-1">
